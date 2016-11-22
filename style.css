@@ -7,9 +7,15 @@ body{
 }
 .bannerpicture {
     height: 180px;
-    width: 100%;
+    width: 89%;
 }
 /*banner*/
+
+/*menu*/
+.navbar {
+	width: 89%;
+}
+/*menu*/
 
 /*main*/
 .main {
