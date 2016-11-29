@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -20,7 +22,14 @@
   <nav class="navbar img-responsive center-block navbar-inverse">
     <div class="navbar-header">
       <ul class="nav navbar-nav">
-        <li><a href="Om lanet.html">OM LANET</a></li>
+        <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">OM LANET <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Karta</a></li>
+          <li><a href="#">Ta Med</a></li>
+          <li><a href="#">Tänk På</a></li>
+        </ul>
+        </li>
         <li><a href="Turneringar.html">TURNERINGAR</a></li> 
         <li><a href="Kontakt.html">KONTAKT</a></li>
         <li><a href="Bokning.html">BOKNING</a></li> 
